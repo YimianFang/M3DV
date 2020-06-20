@@ -8,13 +8,6 @@
 5、model文件夹：包含了得到最好测试结果的模型（共三个模型文件）以及模型在测试集上的结果submission.csv。  
 6、data文件：从kaggle上下载得到的全部数据。  
 
-
-Train_Val3.py代码运行：  
-1、需要将M3DV下的所有文件都下载到一个目录下，以正常运行Train_Val3.py文件。  
-2、Train_Val3.py必须要读入的数据有两个：(1)训练数据，存放在data/train_val文件夹下；(2)data中的train_val.csv文件；如果需要保存和读入已经训练过的模型，则需要在代码所在的目录下新建trained_net文件夹，放入模型。当然文件路径可以修改。  
-3、确认文件路径后直接运行Train_Val3.py。  
-4、Train_Val3.py运行后会在trained_net文件夹中保存新生成的模型。
-
 test.py代码运行：  
 1、需要将M3DV下的所有文件都下载到一个目录下，以正常运行test.py文件。  
 2、test.py需要读入三个文件，分别是：(1)data/test文件夹下的数据；(2)data文件夹中的sampleSubmission.csv文件；(3)model文件夹下的三个模型。当然文件路径可以修改。  
